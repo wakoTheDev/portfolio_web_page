@@ -68,6 +68,7 @@ nav ul li a:hover {
     margin: 0.5rem;
     border-radius: 4px;
     padding: 0.5rem;
+    z-index: 1;
 }
 
 .project img {
@@ -77,7 +78,9 @@ nav ul li a:hover {
     margin: 0 15px 15px 0; 
     max-width: 25%; 
     height: auto;
-    animation: rotateFlipFade 6s ease-in-out infinite;;
+    animation: rotateFlipFade 6s ease-in-out infinite;
+    z-index: 0; 
+    opacity: 0.8;
 }
 @keyframes rotateFlipFade {
     0% {
